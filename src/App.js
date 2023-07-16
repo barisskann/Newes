@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="relative">
       <Navbar />
-      <div className="pt-32">
+      <div className=" max-md:pt-20 pt-32">
         <Switch>
           <Route exact path="/">
             <Home />

@@ -5,7 +5,7 @@ import img3 from "../../image/calısılanülk.png";
 export default function Hakkımızda() {
   return (
     <div className="w-9/12 m-auto text-center">
-      <p className="text-3xl font-bold mb-5">1985’den günümüze tarihçemiz</p>
+      <p className="text-3xl font-bold mb-5 max-md:mt-8">1985’den günümüze tarihçemiz</p>
       <p className="font-semibold mb-5">
         Can Tekstil; 1985 yılında 350 ton/ay kapasite ile iplik üretmek amacıyla
         kurulmuştur. 1989 yılında Dokuma bölümü, 1993 yılında Boya & Apre ve

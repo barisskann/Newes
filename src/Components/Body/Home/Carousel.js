@@ -27,7 +27,7 @@ const Carousel = ({ autoPlayInterval = 4000 }) => {
   }, [currentIndex]);
 
   return (
-    <div className="carousel  " ref={carouselRef}>
+    <div className="carousel max-md:hidden " ref={carouselRef}>
       {images.map((imageUrl, index) => (
         <img key={index} src={imageUrl} alt="Carousel Image" />
       ))}
